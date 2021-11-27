@@ -1,0 +1,17 @@
+
+.product_img {
+    width: 100%;
+    height: 250px;
+}
+
+.todo {
+    color: #fff;
+}
+
+.todo[status=complete] {
+    background: green;
+}
+
+.todo[status=incomplete] {
+    background: red;
+}
